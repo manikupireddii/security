@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+
 void getKeyMatrix(string key,vector<vector<int>> &keyMatrix,int size){
     int k=0;
     for(int i=0;i<size;i++){
