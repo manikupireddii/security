@@ -8,6 +8,7 @@ void getKeyMatrix(string key,vector<vector<int>> &keyMatrix,int size){
         k++;
     }
     }
+    }
 }
 vector <int> encrypt(vector<vector<int>> keymatrix,vector<int>messagevecotr intsize){
     vector<int> cipherVector(size,0);
