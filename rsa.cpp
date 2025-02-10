@@ -7,6 +7,7 @@ long long modExpo(long long base, long long exp, long long mod) {
         if (exp % 2) result = (result * base) % mod;
         base = (base * base) % mod;
         exp /= 2;
+        
     }
     return result;
 }
