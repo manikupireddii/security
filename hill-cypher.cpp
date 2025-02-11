@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector> 
+#include<vector>  
 
 void getKeyMatrix(string key,vector<vector<int>> &keyMatrix,int size){
     int k=0;
