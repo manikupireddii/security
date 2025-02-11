@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 string encrypt(string text ,int shift){
     string result  =""
     for(char ch :text){
