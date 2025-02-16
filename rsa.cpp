@@ -9,9 +9,7 @@ long long modExpo(long long base, long long exp, long long mod) {
         
     }
     return result;
-}
-
-int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }
+}int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }
 
 int modInverse(int e, int phi) {
     int x1 = 1, x0 = 0, phi0 = phi;
